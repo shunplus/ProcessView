@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProcessView">
+        <attr name="itemColor" format="color" />
+        <attr name="verticalNum" format="integer" />
+        <attr name="horizontalNum" format="string" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemTextSize" format="dimension" />
+        <attr name="itemVerticalSpace" format="dimension" />
+        <attr name="itemHorizontalSpace" format="dimension" />
+    </declare-styleable>
+</resources>

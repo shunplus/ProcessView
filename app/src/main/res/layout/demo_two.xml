@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.test.shundemo.MainActivity">
+
+    <com.example.test.shundemo.ProcessView1
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="51dp"
+        android:id="@+id/process_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:horizontalNum="1,1,3,4,1,6,3"
+        app:itemColor="#303030"
+        app:itemHeight="35dp"
+        app:itemHorizontalSpace="15dp"
+        app:itemTextSize="14dp"
+        app:itemVerticalSpace="45dp"
+        app:itemWidth="80dp"
+        app:verticalNum="7" />
+</LinearLayout>
