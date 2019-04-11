@@ -73,7 +73,7 @@ public class ProcessView extends View {
 
     public ProcessView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        init(attrs);
+        init(attrs);//初始化自定义属性
     }
 
     private void init(AttributeSet attrs) {

@@ -33,7 +33,7 @@ public class DemoTwoActivity extends Activity implements ProcessView1.OnItemClic
 
     public HashMap<Integer, List<String>> getTextShow() {
         List<String> text1 = Arrays.asList("执行通知");
-        List<String> text2 = Arrays.asList("送达文书");
+        List<String> text2 = Arrays.asList("送达文书", "调查");
         List<String> text3 = Arrays.asList("强行措施", "财产调查", "解除措施");
         List<String> text4 = Arrays.asList("查询存款", "搜查", "传唤", "悬赏执行");
         List<String> text5 = Arrays.asList("查明财产");
@@ -53,7 +53,7 @@ public class DemoTwoActivity extends Activity implements ProcessView1.OnItemClic
 
     private HashMap<Integer, List<Boolean>> getMeasureRecorde() {
         List<Boolean> text1 = Arrays.asList(true);
-        List<Boolean> text2 = Arrays.asList(true);
+        List<Boolean> text2 = Arrays.asList(true, false);
         List<Boolean> text3 = Arrays.asList(true, true, true);
         List<Boolean> text4 = Arrays.asList(true, true, true, true);
         List<Boolean> text5 = Arrays.asList(true);

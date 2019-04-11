@@ -14,7 +14,7 @@
         android:id="@+id/process_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:horizontalNum="1,1,3,4,1,6,3"
+        app:horizontalNum="1,2,3,4,1,6,3"
         app:itemColor="#303030"
         app:itemHeight="35dp"
         app:itemHorizontalSpace="15dp"
